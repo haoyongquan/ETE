@@ -14,7 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/','Index\indexController@index');
+Route::get('indexs','Index\indexController@indexs');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
